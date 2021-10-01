@@ -1,0 +1,649 @@
+@media screen and (max-width: 1450px) {
+  /* testimonial */
+  .testimonial_col{
+    width: 90%;
+}
+
+.testimonial_image img{
+  width: 600px;
+}
+
+.testimonial .testmonial_icon{
+  width: 90%;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  /* banner  */
+  .banner_text .container_book {
+    width: 100%;
+  }
+
+  /* why Olive  */
+  .why_Olive{
+    padding: 150px 100px;
+}
+  /* testimonial */
+  .testimonial_col{
+    width: 95%;
+}
+
+.testimonial_image img{
+  width: 600px;
+}
+
+.testimonial .testmonial_icon{
+  width: 95%;
+}
+
+}
+
+@media screen and (max-width: 1050px) {
+  /* navbar  */
+  header nav {
+    width: 95%;
+  }
+
+  .navbar_section_first {
+    width: 300px;
+  }
+
+  .navbar_section_secound {
+    width: 300px;
+  }
+
+  /* banner  */
+  .banner_text{
+    padding: 50px;
+}
+
+  .book_child select, input[type="date"]{
+    width: 150px;
+}
+
+/* counter number  */
+.counterNumber .counterNumber_row{
+  flex-direction:unset;
+  flex-wrap:unset;
+  padding: 50px;
+}
+
+.counterNumber_col p{
+  width: 100%;
+  font-size: 1.30rem;
+}
+
+  /* why Olive  */
+  .why_Olive{
+    padding: 150px 50px;
+}
+
+.why_olive_row .why_olive_col{
+  flex: 1 1 200px;
+}
+
+.why_olive_col img{
+  width: 100%;
+  height: 150px;
+}
+
+/* card container  */
+.card_image img{
+  width: 500px;
+}
+
+.card_container_text p{
+  margin-top: 0;
+}
+
+/* blog  */
+.blog_container .blog_row{
+  width: 100%;
+}
+
+/* testimonial */
+
+.testimonial h1{
+  width: 80%;
+}
+
+.testimonial h1::before {
+  width: 800px;
+}
+
+ /* testimonial */
+ .testimonial_row{
+   width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.testimonial_col .testimonial_image{
+  width: 100%;
+}
+
+ .testimonial_col{
+  width: 100%;
+}
+
+.testimonial_image img{
+width: 95%;
+}
+
+.testimonial .testmonial_icon{
+width: 96%;
+}
+
+.box_testimonial p{
+  margin: 10px 0 50px 10px;
+}
+
+/* footer  */
+.footer_img_city img{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+
+
+
+}
+
+@media screen and (max-width: 825px) {
+  /* navbar  */
+  .phone_section {
+    margin-left: 0;
+  }
+
+  nav ul li .logoImg {
+    height: 30px;
+    margin: 0 10px;
+  }
+
+  .navbar_section_secound li .form {
+    width: 130px;
+  }
+    /* banner  */
+    .banner_text{
+        padding: 30px;
+    }
+
+    /* about text  */
+    .col_text_top{
+      width: 80%;
+  }
+
+  .col_text_top p{
+    width: 90%;
+}
+
+  /* why Olive  */
+.why_olive_row .why_olive_col{
+  flex: 1 1 150px;
+}
+
+/* card container  */
+.card_section .card_heading{
+  font-size: 4rem;
+}
+
+.card_section .card_heading::before {
+  width: 650px;
+}
+
+/* card container  */
+.card_image img{
+  width: 400px;
+}
+
+.text_heading_card{
+  font-size: 1.50rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* blog  */
+.blog_row .blog_col{
+  margin: 5px;
+}
+
+/* testimonial */
+
+.testimonial h1{
+  font-size: 4rem;
+}
+
+.testimonial h1::before {
+  width: 700px;
+}
+
+ /* testimonial */
+ .testimonial_col .box_testimonial{
+  height: 100%;
+  padding: 10px 50px 10px 50px;
+}
+
+ .box_testimonial span i{
+  margin: 0 10px 10px 10px;
+}
+
+.box_testimonial p{
+  margin: 10px 0 10px 0;
+}
+
+
+.testimonial_col .box_testimonial{
+  height: 450px;
+  padding: 50px 10px 10px 10px;
+}
+
+.testimonial_image img{
+width: 95%;
+height: 450px;
+}
+
+.testimonial .testmonial_icon{
+  margin-top: 550px;
+width: 25%;
+}
+
+.box_testimonial p{
+ margin: 10px 0 50px 10px;
+ font-size: 14px;
+ line-height: 25px;
+}
+
+.box_testimonial h3{
+  margin-top: -45px;
+  font-size: 1rem;
+}
+
+
+}
+
+@media screen and (max-width: 715px) {
+  /* navbar  */
+
+  /* center image  */
+  header .center_img {
+    display: block;
+  }
+
+  header .bars {
+    display: block;
+  }
+
+  nav ul li .logoImg {
+    display: none;
+  }
+
+  header nav {
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 8px 8px -6px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  header nav.activeNavbar {
+    height: 350px;
+    visibility: visible;
+    overflow: visible;
+    opacity: 1;
+  }
+
+  nav ul {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 20px 0;
+  }
+
+  .navbar_section_first {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+
+  nav ul li select {
+    width: 100%;
+    padding: 10px 100px;
+  }
+
+  .navbar_section_secound {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+
+  .navbar_section_secound li .form {
+    width: 270px;
+  }
+
+   /* banner  */
+   .banner_text{
+    padding: 10px;
+}
+
+/* card container  */
+.card_section .card_heading{
+  font-size: 3rem;
+}
+
+.card_section .card_heading::before {
+  width: 500px;
+}
+
+/* card container  */
+.card_container_col .card_box{
+  padding: 0 10px;
+}
+
+.card_image img{
+  width: 100%;
+}
+
+
+/* testimonial */
+
+.testimonial h1::before {
+  width: 650px;
+}
+
+
+}
+
+@media screen and (max-width: 650px){
+    /* banner  */
+    .banner_text h1{
+        font-size: 3rem;
+    }
+
+    .col_book{
+        flex: 1 1 300px;
+        margin: 10px 0;
+    }
+
+    .book_child select, input[type="date"]{
+        width: 70%;
+    }
+
+    /* about text  */
+    .col_text_top{
+      width: 100%;
+  }
+
+  .col_text_top h1{
+    font-size: 2rem;
+}
+
+  .col_text_top p{
+    width: 95%;
+}
+
+/* .browse_Location  */
+.browse_Location .browser_heding::before {
+  width: 95%;
+}
+
+
+/* counter number  */
+.counterNumber .counterNumber_row{
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px 10px;
+}
+
+/* why Olive  */
+.why_Olive h1::before {
+  width: 100%;
+}
+
+
+/* card container  */
+.card_section .card_heading{
+  font-size: 2rem;
+}
+
+.card_section .card_heading::before {
+  width: 90%;
+  height: 100px;
+}
+
+/* card container  */
+.card_container .card_container_col{
+  display: grid;
+}
+
+.card_container_col .card_box{
+  height: 100%;
+  padding: 10px;
+  order: 2;
+}
+
+.card_image img{
+  width: 100%;
+  height: 100%;
+  order: 1;
+}
+
+/* card container  */
+.card_container_text p{
+  padding: 10px;
+}
+
+/* blog  */
+.blog_container h1::before {
+  width: 80%;
+}
+
+.blog_row .blog_col{
+  width: 85%;
+}
+
+.blog_col img{
+  height: 200px;
+  object-fit: cover;
+}
+
+
+/* testimonial */
+
+.testimonial h1{
+  width: 90%;
+  font-size: 2rem;
+}
+
+.testimonial h1::before {
+  width: 95%;
+  height: 150px;
+}
+
+.testimonial_col{
+  display: grid;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.testimonial_col .box_testimonial{
+  width: 95%;
+  height: 100%;
+}
+
+.testimonial_image img{
+height: 250px;
+}
+
+.testimonial .testmonial_icon{
+  margin-top: 700px;
+}
+
+/* footer  */
+
+.footer ul{
+  margin: 10px;
+}
+
+}
+
+@media screen and (max-width: 450px){
+    /* banner  */
+    .banner-image .banner_text{
+      text-align: center;
+  }
+
+.banner_text p{
+    font-size: 2.50rem;
+}
+
+.col_book p{
+    font-size: 1rem;
+}
+
+.book_child i{
+  display: none;
+}
+
+.book_child select, input[type="date"]{
+  width: 100%;
+}
+
+
+/* .browse_Location  */
+
+.browse_Location .browser_heding::before {
+  width: 95%;
+}
+
+
+    /* about text  */
+  .col_text_top h1{
+    font-size: 2rem;
+    line-height: 45px;
+    margin-top: 51px;
+}
+
+  .col_text_top p{
+    width: 100%;
+    text-align: justify;
+}
+
+  /* why Olive  */
+  .why_olive_row .why_olive_col{
+    flex: 1 1 130px;
+  }
+
+   /* why Olive  */
+   .why_Olive{
+    padding: 100px 10px;
+}
+
+.why_olive_row .why_olive_col{
+  flex: 1 1 200px;
+}
+
+.why_Olive h1{
+  margin: 100px 0 100px 0;
+  font-size: 3rem;
+}
+
+.why_Olive h1::before {
+  width: 100%;
+  height: 100px;
+}
+
+/* testimonial */
+
+.testimonial h1{
+  margin: 100px auto 100px auto;
+  width: 100%;
+  font-size: 1.50rem;
+}
+
+.testimonial h1::before {
+  width: 95%;
+  height: 100px;
+}
+
+.testimonial .testmonial_icon{
+  width: 50%;
+  margin-top: 750px;
+}
+
+
+.box_testimonial p{
+  text-align: justify;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  /* navbar  */
+  /* center image  */
+  header .center_img {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  nav ul li select {
+    width: 250px;
+    padding: 10px;
+  }
+
+  .navbar_section_secound li .form {
+    width: 250px;
+  }
+
+      /* banner  */
+      .banner_text h1{
+        font-size: 3rem;
+    }
+
+    .book_child select, input[type="date"]{
+      padding: 0 10px;
+      background: transparent;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* navbar  */
+  /* center image  */
+  header .center_img {
+    width: 100px;
+  }
+
+  nav ul li select {
+    width: 100%;
+  }
+
+  .navbar_section_secound li .form {
+    width: 200px;
+  }
+
+  /* .browse Location */
+  .browse_Location_col img{
+    width: 100%;
+  }
+
+.browse_Location .browser_heding{
+  color: rgb(0, 0, 0);
+}
+}
